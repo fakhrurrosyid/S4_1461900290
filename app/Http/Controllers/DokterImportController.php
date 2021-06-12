@@ -11,7 +11,7 @@ class DokterImportController extends Controller
     
     public function index() 
     {
-        return view('import_0241');
+        return view('import_0290');
     }
     public function import(Request $request) 
     {

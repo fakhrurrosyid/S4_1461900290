@@ -24,12 +24,12 @@ class DokterController extends Controller
         )
         ->get();
 
-        return view('index_0241', ['dokter' => $dokter]);
+        return view('index_0290', ['dokter' => $dokter]);
     }
 
     public function add()
     {
-        return view('add_0241');
+        return view('add_0290');
     }
 
     public function tambah(Request $request)
@@ -64,7 +64,7 @@ class DokterController extends Controller
         )
         ->where('id_dokter', $id)
         ->get();
-        return view('edit_0241', ['dokter' => $dokter]);
+        return view('edit_0290', ['dokter' => $dokter]);
     }
 
     public function update(Request $request)
